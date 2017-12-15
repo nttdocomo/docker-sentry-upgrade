@@ -88,4 +88,4 @@ EXPOSE 9000
 VOLUME /var/lib/sentry/files
 
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["run" "web"]
+CMD ["run" "cron"]
