@@ -84,6 +84,7 @@ COPY config.yml /etc/sentry/
 
 COPY docker-entrypoint.sh /entrypoint.sh
 
+
 EXPOSE 9000
 VOLUME /var/lib/sentry/files
 
