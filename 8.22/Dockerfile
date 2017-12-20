@@ -88,4 +88,4 @@ EXPOSE 9000
 VOLUME /var/lib/sentry/files
 
 ENTRYPOINT ["/entrypoint.sh"]
-CMD [createuser","--email nttdocomo.ouyi@gmail.com --password=ouyi709394 --superuser"]
+CMD [createuser","--email=nttdocomo.ouyi@gmail.com --password=ouyi709394 --superuser=True"]
